@@ -64,4 +64,5 @@ jobs:
           vid: ${{ secrets.VERACODE_API_ID }}
           vkey: ${{ secrets.VERACODE_API_KEY }}
           deleteincompletescan: 2
+          criticality: "High"
 
